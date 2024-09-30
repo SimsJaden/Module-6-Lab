@@ -1,4 +1,173 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #ccc;
+}
+
+article {
+  width: 210mm;
+  height: 297mm;
+  margin: 20px auto;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent 40%, transparent 60%, rgba(0, 0, 0, 0.4));
+  background-size: cover, cover, 100%;
+  background-color: white;
+  border-top: 1mm solid #999;
+  border-bottom: 1mm solid #999;
+}
+
+address {
+  position: absolute;
+  bottom: 8mm;
+  right: 20mm;
+  font-size: 14px;
+}
+
+address p {
+  font-size: 16px; /* Adjust this value as needed */
+}
+
+ h1 {
+  position: absolute;
+  top: 12mm;
+  left: 17mm;
+  width: 128px;
+  height: 128px;
+  background: url('logo.png') no-repeat center;
+  background-size: cover;
+  /* filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5)); */
+
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* The circlular shadow around the logo*/
+
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 40px 0;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  pointer-events: none;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: 300;
+  font-family: "Brush Script MT", "Brush Script Std", cursive, sans-serif;
+}
+
+h3 {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h4 {
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h5 {
+  font-size: large;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: "Brush Script MT", "Brush Script Std", cursive, sans-serif;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, transparent, black, transparent);
+  margin: 1px 0;
+}
+
+p {
+font-size: 11px;
+font-family: DauphinPlain;
+}
+
+
+.main-title {
+  text-align: center;
+  margin: 70mm 0 3mm 0;
+}
+
+.body-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.column {
+  padding: 10px;
+}
+
+.top-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.bottom-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.logo-container {
+  position: absolute;
+  top: 12mm;
+  left: 20mm;
+  width: 128px;
+  height: 128px;
+}
+
+.logo-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin: -1px;
+}
+
+.form-wrapper {
+  position: relative;
+  padding: 10px;
+}
+
+.radio-options {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+}
+
+.generate-container {
+  position: absolute;
+  top: 0;
+  left: 180px;
+}
+
+.number-input {
+  display: inline-block;
+  margin-right: 5px;
 }

@@ -16,3 +16,28 @@ function loaded() {
 export function sayHello() {
     return 'hello';
 }
+
+
+function generateOption() {
+    const options = document.getElementsByName('option');
+    let selectedOption = '';
+    for (let i = 0; i < options.length; i++) {
+      if (options[i].checked) {
+        selectedOption = options[i].value;
+        break;
+      }
+    }
+  
+    if (selectedOption) {
+      window.location.href = selectedOption + ".html";
+    } else {
+      alert("Please select an option.");
+    }
+  }
+  
+  // Add event listener to the button
+  document.addEventListener("DOMContentLoaded", function() {
+    const generateButton = document.querySelector(".generate-container button");
+    generateButton.addEventListener("click", generateOption);
+  });
+  
