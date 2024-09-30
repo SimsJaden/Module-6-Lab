@@ -1,24 +1,21 @@
-# Web Dev Starter Code
+# Module 6 - Letterheaded Paper
 
 ## Overview
 
-TODO: Write a project description
+This project includes a custom designed letter with some small custom elements. This paper follows all of the guidelines described in the Project brief except for
+one part in which the I couldnt get the code to work correctly and display the seperate pages. The seperate pages are still styled and have also been customized to
+look similar to the Lorem Ipsum site and its seperate html pages.
 
 ## Sources and Credits
 
-TODO: You must credit the sources and authors of any code, libraries, or other
-assets you use in your project. If you leave this section blank, your project
-will be considered in violation of the Academic Honesty policy unless you truly
-created everything from scratch with no outside help. If you need to use a
-source that you cannot credit (e.g. a classmate's work), you must get explicit
-permission from your instructor.
+- Infomation on debugging: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS
+- Information on backgrounds and their borders: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Backgrounds_and_borders
+- Information on sclaing of items in html: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Sizing_items_in_CSS
+- Had some help getting the button working and with some of the javascript: ChatGPT.com
 
-A simple bulleted list below is sufficient. For example:
+## How to Run
 
-- Bootstrap: https://getbootstrap.com/
-- jQuery: https://jquery.com/
-- Background image: https://unsplash.com/photos/...
-- Sound effects: https://freesound.org/people/...
-- Icons: https://fontawesome.com/
-- Fonts: https://fonts.google.com/
-- etc.
+- To get view the website, simply clone the git repo into your perfered IDE(recommended VSCode).
+- Once this is complete, open the project folder and then press F1 to open the top command line.
+- Search for Live Preview: Start Server in order to being a local intance of the website/browser.
+- Enjoy.
